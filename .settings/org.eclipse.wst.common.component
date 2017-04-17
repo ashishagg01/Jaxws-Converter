@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Jaxws-Converter">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <dependent-module archiveName="gmbal-api-only.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/bper/workspace/jaxws-ri-2.2.10/jaxws-ri/lib/gmbal-api-only.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxws-api.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/bper/workspace/jaxws-ri-2.2.10/jaxws-ri/lib/jaxws-api.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stax-ex.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/bper/workspace/jaxws-ri-2.2.10/jaxws-ri/lib/stax-ex.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="management-api.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/bper/workspace/jaxws-ri-2.2.10/jaxws-ri/lib/management-api.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="streambuffer.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/bper/workspace/jaxws-ri-2.2.10/jaxws-ri/lib/streambuffer.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="policy.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/bper/workspace/jaxws-ri-2.2.10/jaxws-ri/lib/policy.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxws-rt.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/bper/workspace/jaxws-ri-2.2.10/jaxws-ri/lib/jaxws-rt.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-impl.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/bper/workspace/jaxws-ri-2.2.10/jaxws-ri/lib/jaxb-impl.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ha-api.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/bper/workspace/jaxws-ri-2.2.10/jaxws-ri/lib/ha-api.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-core.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/bper/workspace/jaxws-ri-2.2.10/jaxws-ri/lib/jaxb-core.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Jaxws-Converter"/>
+        <property name="java-output-path" value="/Jaxws-Converter/target/classes"/>
+    </wb-module>
+</project-modules>
